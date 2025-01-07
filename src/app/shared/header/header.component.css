@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo-head{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-head img{
+    width: 50%;
+    border-radius:50% ;
+    text-align: center;
+}
+.menu-head{
+    width: 40%;
+}
+
+.sign-head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-head button{
+    border-radius: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 1rem 0.875rem;
+    color: white;
+    font-weight: 600;
+}

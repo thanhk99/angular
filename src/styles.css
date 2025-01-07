@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(to bottom ,#68728D,#2E3851 );
+    height: 100vh;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+}
